@@ -17,4 +17,13 @@ INSERT INTO employee (first_name, last_name, role_id, manager_id)
 VALUES
     ('Jane', 'Simmons', 2, null),
     ('Bill', 'Simmons', 4, null),
-    ('John', 'Doe', 6, null);
+    ('Joe', 'Johnson', 6, null),
+    ('John', 'Doe', 1, 1),
+    ('Jon', 'Doe', 1, 1),
+    ('Johnny', 'Doe', 1, 1),
+    ('James', 'Doe', 3, 2),
+    ('Jennie', 'Doe', 3, 2),
+    ('Jack', 'Doe', 3, 2),
+    ('Jane', 'Doe', 5, 3),
+    ('Jackson', 'Doe', 5, 3),
+    ('Joseph', 'Doe', 5, 3);
