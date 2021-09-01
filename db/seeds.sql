@@ -1,0 +1,20 @@
+INSERT INTO department (name)
+VALUES
+    ('sales'),
+    ('marketing'),
+    ('retail');
+
+INSERT INTO role (title, salary, department_id)
+VALUES
+    ('salesperson', 30000, 1),
+    ('sales-manager', 40000, 1),
+    ('marketing-specialist', 50000, 2),
+    ('marketing-manager', 100000, 2),
+    ('retail-associate', 25000, 3),
+    ('retail-manager', 30000, 1);
+
+INSERT INTO employee (first_name, last_name, role_id, manager_id)
+VALUES
+    ('Jane', 'Simmons', 2, null),
+    ('Bill', 'Simmons', 4, null),
+    ('John', 'Doe', 6, null);
