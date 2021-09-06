@@ -1,4 +1,4 @@
-INSERT INTO department (name)
+INSERT INTO department (department_name)
 VALUES
     ('sales'),
     ('marketing'),
@@ -11,7 +11,7 @@ VALUES
     ('marketing-specialist', 50000, 2),
     ('marketing-manager', 100000, 2),
     ('retail-associate', 25000, 3),
-    ('retail-manager', 30000, 1);
+    ('retail-manager', 30000, 3);
 
 INSERT INTO employee (first_name, last_name, role_id, manager_id)
 VALUES
