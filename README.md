@@ -4,7 +4,7 @@ This application uses a sql database to store and access employee data.
 
 ## Repository Navigation
 
-The application can be found on the following [Github](https://github.com/JHallUofA/Password-Generator)
+The application can be found on the following [Github](https://github.com/JHallUofA/employee-tracker)
 
 ## Demonstration
 
